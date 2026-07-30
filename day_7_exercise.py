@@ -1,3 +1,4 @@
+# this code base on billing 
 medicine_name = str(input("enter the name of medicine name = "))
 strip_quantity = int(input("enter the quantity of medicien = "))
 price = int(input("price of medicine is = "))
@@ -5,7 +6,7 @@ price = int(input("price of medicine is = "))
 total_amount = (price*strip_quantity)
 final_bill = (total_amount - 50)
 print(f"you purchase {medicine_name} and you get {strip_quantity} strips \n your final  bill is {final_bill}\n thanks for comming 😊")
-
+# this code base on calculator 
 a = int(input("enter the first number = "))
 b = float(input("enter the second number ="))
 Addison = (a+b)
@@ -13,7 +14,7 @@ multiplication = (a*b)
 substruction = (a-b)
 division = (a/b)
 print(f"Addison = {Addison} \n multiplication = {multiplication} \n substruction = {substruction} \n division{division}")
-
+# this code base on result makeing 
 student_name = str(input("Enter student name = "))
 subject_name = str(input("Enter subject name = "))
 subject_marks = int(input("Enter mark you earn = "))

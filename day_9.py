@@ -76,14 +76,54 @@
 
 
 
-English_word = input("Enter your favorite English word: =  ")
-total_length = len(English_word)
-in_uppercase = (English_word.upper())
-String_Slicing = English_word[:3]
-String_Slicing1 = English_word[-2:]
+# English_word = input("Enter your favorite English word: =  ")
+# total_length = len(English_word)
+# in_uppercase = (English_word.upper())
+# String_Slicing = English_word[:3]
+# String_Slicing1 = English_word[-2:]
 
 
-print(("Total letters:"),total_length)
-print("IN Uppercase :",in_uppercase)
-print("First 3 letters : ",String_Slicing)
-print("First 2 letters :",String_Slicing1)
+# print(("Total letters:"),total_length)
+# print("IN Uppercase :",in_uppercase)
+# print("First 3 letters : ",String_Slicing)
+# print("First 2 letters :",String_Slicing1)
+
+
+
+# challenge 4 
+# user = input("Enter your first name:  ")
+# user_last = (input("Enter your last name: "))
+# user_name = (user +" "+ user_last)
+# name = (user_name.upper())
+# age =  int(input("Enter your age: "))
+# city = input ("Enter your city: ")
+# graduation_age = (age + 4)
+# Slicing = name[:2]
+# Slicing1 = name[-2:]
+# id = (Slicing+Slicing1)
+# secret_id = (id.upper())
+# print("-----------------------  \n  Student ID Card  \n ---------------------" )
+# print("Name:   \t",name)
+# print("city:   \t",city.upper())
+# print("secret_id:   ",secret_id)
+# print("graduation_age:\t",graduation_age)
+# print("-----------------------------------")
+
+
+
+# Challenge5
+user = input("Enter a password (min 6 letters): ")
+secret_pin = int(input("Enter a secret 2-digit PIN: "))
+security_key = (secret_pin*3)
+slicing = user[:3]
+slicing1 = user[-3:]
+Original = (slicing.upper())
+orignal1 = (slicing1.lower())
+encrypted_password = (Original+str(security_key)+orignal1)
+total_length = (len(encrypted_password))
+print("****************************************\n ENCRYPTION REPORT \n **************************************** \n")
+print("Original Password:\t",user)
+print("Security Key:      \t",security_key)
+print("Encrypted Password: \t",encrypted_password)
+print("Password Length: \t",total_length)
+print("****************************************")

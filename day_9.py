@@ -1,0 +1,89 @@
+# # Challenge 1: The Profile Formatter (Basic)
+# a = input("Enter your first name: ")
+# b = input("Enter your last name : ")
+# print(len(a+b), )
+# print(a+b)
+# Variables ko meaningful naam diya
+# first_name = input("Enter your first name: ")
+# last_name = input("Enter your last name: ")
+
+# # Strings ko joda, beech mein space ke saath
+# full_name = first_name + " " + last_name
+
+# # Escape sequences (\n nayi line ke liye, \t tab space ke liye) aur .upper() ka use
+# print("\n--- User Profile ---")
+# print("Full Name:\t" + full_name.upper()) 
+
+# # Total length nikalte time humne space ko count nahi kiya (isliye first_name aur last_name ko direct joda)
+# # Integer length ko wapas string mein Typecast kiya taki print function mein error na aaye
+# length_of_name = len(first_name + last_name)
+# print("Total Letters:\t" + str(length_of_name))
+# print("--------------------")
+
+# a = int(input("Enter your number: "))     #word.replace("cod", "done")
+# print = (f"Secure Mobile Number: +91-", word.replace("a", "x"))
+#example 
+# Step 1: User se input liya. (input by default string hi hota hai)
+# mobile_number = input("Enter your 10-digit mobile number: ")
+
+# # Step 2: String Slicing - Last ke 3 digits nikalne ke liye
+# # [7:] ka matlab hai index 7 se le kar string ke end tak
+# last_three = mobile_number[7:] 
+
+# # Step 3: Masking logic - "XXXXXXX" string ke sath last_three ko jod diya
+# secure_number = "XXXXXXX" + last_three
+
+# # Step 4: Final print
+# print("Secure Mobile Number: +91-" + secure_number)
+
+
+
+# Challenge 3
+# # Step 1: Module ko import kiya
+# import datetime
+
+# # datetime module se aaj ki date nikali
+# aaj_ki_date = datetime.date.today()
+
+# # Step 2: User Input aur Typecasting
+# item_name = input("Kya kharidna hai? (Item Name): ")
+
+# # input() string deta hai, isliye float() ka use karke usko number mein badla
+# price = float(input("Ek item ki price kitni hai?: ")) 
+
+# # Quantity humesha puri hoti hai (jaise 2, 3), isliye int() ka use kiya
+# quantity = int(input("Kitni quantity chahiye?: "))
+
+# # Step 3: Calculation logic
+# total_amount = price * quantity
+
+# Step 4: Output ko ek bill ki tarah format karna
+# "=" * 30 likhne se "=" 30 baar print ho jayega (String operation)
+# print("\n" + "="*30)
+# print("\tMINI INVOICE")
+# print("="*30)
+
+# # Date, price, quantity aur total_amount number/date hain,
+# # isliye print karte time unhe wapas str() mein typecast kiya
+# print("Date:\t\t" + str(aaj_ki_date))
+# print("Item:\t\t" + item_name)
+# print("Price:\t\t₹" + str(price))
+# print("Quantity:\t" + str(quantity))
+# print("-" * 30)
+# print("TOTAL AMOUNT:\t₹" + str(total_amount))
+# print("=" * 30)
+
+
+
+
+English_word = input("Enter your favorite English word: =  ")
+total_length = len(English_word)
+in_uppercase = (English_word.upper())
+String_Slicing = English_word[:3]
+String_Slicing1 = English_word[-2:]
+
+
+print(("Total letters:"),total_length)
+print("IN Uppercase :",in_uppercase)
+print("First 3 letters : ",String_Slicing)
+print("First 2 letters :",String_Slicing1)

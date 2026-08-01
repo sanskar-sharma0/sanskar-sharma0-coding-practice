@@ -112,18 +112,44 @@
 
 
 # Challenge5
-user = input("Enter a password (min 6 letters): ")
-secret_pin = int(input("Enter a secret 2-digit PIN: "))
-security_key = (secret_pin*3)
-slicing = user[:3]
-slicing1 = user[-3:]
-Original = (slicing.upper())
-orignal1 = (slicing1.lower())
-encrypted_password = (Original+str(security_key)+orignal1)
-total_length = (len(encrypted_password))
-print("****************************************\n ENCRYPTION REPORT \n **************************************** \n")
-print("Original Password:\t",user)
-print("Security Key:      \t",security_key)
-print("Encrypted Password: \t",encrypted_password)
-print("Password Length: \t",total_length)
-print("****************************************")
+# user = input("Enter a password (min 6 letters): ")
+# secret_pin = int(input("Enter a secret 2-digit PIN: "))
+# security_key = (secret_pin*3)
+# slicing = user[:3]
+# slicing1 = user[-3:]
+# Original = (slicing.upper())
+# orignal1 = (slicing1.lower())
+# encrypted_password = (Original+str(security_key)+orignal1)
+# total_length = (len(encrypted_password))
+# print("****************************************\n ENCRYPTION REPORT \n **************************************** \n")
+# print("Original Password:\t",user)
+# print("Security Key:      \t",security_key)
+# print("Encrypted Password: \t",encrypted_password)
+# print("Password Length: \t",total_length)
+# print("****************************************")
+
+
+
+
+#  Challenge 6: The Profile URL Creator 🌐
+company_name = input("Enter your company name: ")
+user_first = input("Enter your First name : ")
+user_DOB = input("Enter your Birth year: ")
+lower = (company_name.lower())
+lower1 = (user_first.lower())
+slicing = user_DOB[-2:]
+url = (f"www.{lower}.com/{lower1}{slicing}")
+secret_number = (int(user_DOB)*2)
+slicing1 = (company_name[:3])
+upper = (slicing1.upper())
+slicing2 = (user_first[-3:])
+lower2 = (slicing2.lower())
+Password = (upper+lower2+str(secret_number))
+
+print("-----------------------------------\nEMPLOYEE PROFILE GENERATED \n-----------------------------------")
+print("Profile URL:", url)
+print("Temp Password: ",Password)
+print("-----------------------------------")
+
+
+

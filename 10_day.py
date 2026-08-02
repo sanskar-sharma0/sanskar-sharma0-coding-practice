@@ -2,16 +2,16 @@
 
 # Challenge 7: The Data Cleaner 🧹
 
-# messy_data = "   hello vansh bhai...!!!   "
-# clean_data = (messy_data.rstrip("...!!!   "))
-# data = (clean_data.replace("   " , ""))
-# clean = (data)
-# title = (clean.title())
+messy_data = "   hello vansh bhai...!!!   "
+clean_data = (messy_data.rstrip("...!!!   "))
+data = (clean_data.replace("   " , ""))
+clean = (data)
+title = (clean.title())
 
-# word_list = (title.split(" "))
-# count = (clean.count("a"))
-# replace = (title.replace("bhai","sir"))
-# print(f"orignal:\t{messy_data}\nCleaned: \t{title}\nWord List:\t{word_list} \nCount of 'a':\t{count} \nReplaced:\t{replace}")
+word_list = (title.split(" "))
+count = (clean.count("a"))
+replace = (title.replace("bhai","sir"))
+print(f"orignal:\t{messy_data}\nCleaned: \t{title}\nWord List:\t{word_list} \nCount of 'a':\t{count} \nReplaced:\t{replace}")
 
 # Challenge 8: Pharmacy Inventory Formatter 💊
 

@@ -1,6 +1,7 @@
 # 02/08/2026
 
 # Challenge 7: The Data Cleaner 🧹
+# check , () . " every time showw a error 
 
 messy_data = "   hello vansh bhai...!!!   "
 clean_data = (messy_data.rstrip("...!!!   "))
@@ -27,6 +28,7 @@ print(f"----------------------------------------\n{heading}\n-------------------
 
 
 # Challenge 9: Smart Pharma Billing & Loyalty Module 🧾
+# check , () . " every time showw a error 
 customer_name = input("Enter customer name: ").strip().title()
 total_bill = float(input("Enter your bill amount:  "))
 discount_percent =int(input("Enter Discount (%): "))

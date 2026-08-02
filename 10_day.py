@@ -14,7 +14,7 @@ replace = (title.replace("bhai","sir"))
 print(f"orignal:\t{messy_data}\nCleaned: \t{title}\nWord List:\t{word_list} \nCount of 'a':\t{count} \nReplaced:\t{replace}")
 
 # Challenge 8: Pharmacy Inventory Formatter 💊
-
+# check , () . " every time showw a error 
 user = input("Enter medicine name: ").strip().title()
 price = float(input("Enter Price: " ))
 category = input("Enter Category: ").strip().upper()

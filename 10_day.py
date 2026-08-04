@@ -1,32 +1,34 @@
 # 02/08/2026
 
 # Challenge 7: The Data Cleaner 🧹
+# check , () . " every time showw a error 
 
-# messy_data = "   hello vansh bhai...!!!   "
-# clean_data = (messy_data.rstrip("...!!!   "))
-# data = (clean_data.replace("   " , ""))
-# clean = (data)
-# title = (clean.title())
+messy_data = "   hello vansh bhai...!!!   "
+clean_data = (messy_data.rstrip("...!!!   "))
+data = (clean_data.replace("   " , ""))
+clean = (data)
+title = (clean.title())
 
-# word_list = (title.split(" "))
-# count = (clean.count("a"))
-# replace = (title.replace("bhai","sir"))
-# print(f"orignal:\t{messy_data}\nCleaned: \t{title}\nWord List:\t{word_list} \nCount of 'a':\t{count} \nReplaced:\t{replace}")
+word_list = (title.split(" "))
+count = (clean.count("a"))
+replace = (title.replace("bhai","sir"))
+print(f"orignal:\t{messy_data}\nCleaned: \t{title}\nWord List:\t{word_list} \nCount of 'a':\t{count} \nReplaced:\t{replace}")
 
 # Challenge 8: Pharmacy Inventory Formatter 💊
-
-# user = input("Enter medicine name: ").strip().title()
-# price = float(input("Enter Price: " ))
-# category = input("Enter Category: ").strip().upper()
-# cutting = (user[:3]).upper()
-# cut_category = (category[-2:]).lower()
-# med_id = (cutting+cut_category)
-# total_price = (price+15)
-# heading = ("NEW MEDICINE ADDED TO STOCK").center(40)
-# print(f"----------------------------------------\n{heading}\n----------------------------------------\nMedicine:\t{user}\nCategory:\t{category}\nMed ID:   \t{med_id}\nTotal Price:\t{total_price}\n----------------------------------------")
+# check , () . " every time showw a error 
+user = input("Enter medicine name: ").strip().title()
+price = float(input("Enter Price: " ))
+category = input("Enter Category: ").strip().upper()
+cutting = (user[:3]).upper()
+cut_category = (category[-2:]).lower()
+med_id = (cutting+cut_category)
+total_price = (price+15)
+heading = ("NEW MEDICINE ADDED TO STOCK").center(40)
+print(f"----------------------------------------\n{heading}\n----------------------------------------\nMedicine:\t{user}\nCategory:\t{category}\nMed ID:   \t{med_id}\nTotal Price:\t{total_price}\n----------------------------------------")
 
 
 # Challenge 9: Smart Pharma Billing & Loyalty Module 🧾
+# check , () . " every time showw a error 
 customer_name = input("Enter customer name: ").strip().title()
 total_bill = float(input("Enter your bill amount:  "))
 discount_percent =int(input("Enter Discount (%): "))

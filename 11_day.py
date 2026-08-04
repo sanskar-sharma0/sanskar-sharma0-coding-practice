@@ -47,3 +47,27 @@
 #     print("📦 Overstocked! Is dawai ka naya order mat lagana.")
 
 # Challenge 14: E-Commerce Mega Sale (Real-World Task) 🛒
+# bill_amount = float(input("Enter your total amount: "))
+# if bill_amount >= 5000:
+#     discount = (bill_amount * 20) / 100
+#     final_amount = bill_amount - discount
+
+# elif 2000 <= bill_amount < 5000:
+#     discount = (bill_amount * 10) / 100
+#     final_amount = bill_amount - discount
+# else:
+#     final_amount = bill_amount + 50
+# print(final_amount)
+
+
+
+# # Challenge 15: NexCure Security Login (Real-World Task) 🔐
+# username = input("Enter your username: ")
+# password = input("Enter your password: ")
+# if username=="admin":
+#     if password == "pharma123":
+#         print("Welcome to Dashboard! 🚀")
+#     elif password != "pharma123":
+#         print("Alert: Wrong Password entered! ❌")
+# else:
+#     print("Error: Invalid Username! 🛑\n \tInvalid password")

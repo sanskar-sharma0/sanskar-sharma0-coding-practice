@@ -12,3 +12,38 @@
 
 
 # Challenge 11: The Smart Speed Fine Calculator 🚗💨
+# speed = int(input("Enter The vehicle speed: "))
+# if speed < 60:
+#     print("Speed normal hai, araam se chalao. (No Fine)")
+# elif speed >= 60 and speed <= 90 :
+#     print("Warning! Speed limit cross ho rahi hai, dheere karo.")
+
+# else:
+#     print("Bahut tez chala rahe ho! ₹2000 ka Challan katega!")
+
+
+# Challenge 12: Smart Food Delivery System 🛵 (Zomato/Swiggy Logic)
+# user = float(input("Enter the order distance: "))
+# if user <=2 :
+#     print("Khushkhabri! Delivery bilkul FREE hai! 🎉")
+# elif 2<user<=5:
+#     print("Aapka Delivery Charge: ₹30 lagega.")
+# elif 5<user<=10:
+#     print("Aapka Delivery Charge: ₹60 lagega.")
+# else:
+#     print("Sorry bhai, itni door delivery nahi ho payegi! ❌")
+
+
+
+# Challenge 13: Pharmacy Stock Alert System 💊
+# medicine_stock = int(input("Dawai ke kitne patte (strips) bache hain? "))
+# if medicine_stock ==0:
+#     print("🚨 ALERT: Dawai bilkul khatam ho gayi hai! OUT OF STOCK!")
+# elif 1<= medicine_stock <10:
+#     print("⚠️ WARNING: Stock khatam hone wala hai, naya order place karein!")
+# elif 11<=medicine_stock<=50:
+#     print("✅ Stock bilkul normal aur safe hai.")
+# else:
+#     print("📦 Overstocked! Is dawai ka naya order mat lagana.")
+
+# Challenge 14: E-Commerce Mega Sale (Real-World Task) 🛒

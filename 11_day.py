@@ -71,3 +71,28 @@
 #         print("Alert: Wrong Password entered! ❌")
 # else:
 #     print("Error: Invalid Username! 🛑\n \tInvalid password")
+
+
+# Challenge 16: NexCure VIP Membership System 💳 (No-Hint Real World Task)
+
+bill_amount = float(input("Enteer your bill amount:  "))
+is_vip = input("Enter yes / No for checking your vip : ")
+
+if is_vip == "yes":
+    if bill_amount >= 1000:
+         discount = (bill_amount * 20) / 100
+         final_amount = (bill_amount-discount )
+
+    elif bill_amount<1000:
+          discount = (bill_amount * 10) / 100
+          final_amount = (bill_amount-discount)
+
+else:
+     if bill_amount >=2000:
+       discount = (bill_amount * 5) / 100
+       final_amount = (bill_amount-discount )
+     else: 
+         final_amount = bill_amount
+
+
+print(final_amount)        

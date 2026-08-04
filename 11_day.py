@@ -39,7 +39,7 @@
 # medicine_stock = int(input("Dawai ke kitne patte (strips) bache hain? "))
 # if medicine_stock ==0:
 #     print("🚨 ALERT: Dawai bilkul khatam ho gayi hai! OUT OF STOCK!")
-# elif 1<= medicine_stock <10:
+# elif 1<= medicine_stock <=10:
 #     print("⚠️ WARNING: Stock khatam hone wala hai, naya order place karein!")
 # elif 11<=medicine_stock<=50:
 #     print("✅ Stock bilkul normal aur safe hai.")
